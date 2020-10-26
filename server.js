@@ -40,4 +40,4 @@ io.on('connection', socket => {
 app.get('/:room')
 
 
-server.listen(3030);
+server.listen(process.env.PORT || 3030);
